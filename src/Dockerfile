@@ -1,4 +1,4 @@
-FROM node:14.19.1
+FROM node
 WORKDIR /app
 COPY package*.json ./
 RUN npm install --yes
